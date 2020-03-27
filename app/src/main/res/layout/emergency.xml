@@ -6,6 +6,90 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_color">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="317dp"
+        android:layout_height="82dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="547dp"
+        android:layout_marginEnd="48dp"
+
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="92dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginBottom="11dp"
+                app:srcCompat="@drawable/mail" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="97dp"
+                android:text="Helpline Emails" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="88dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="47dp"
+
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginBottom="12dp"
+                app:srcCompat="@drawable/call" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="47dp"
+                android:text="Helpline Number Toll free" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="200dp"
@@ -20,21 +104,46 @@
 
     <androidx.cardview.widget.CardView
 
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="91dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="133dp"
+        android:layout_marginStart="45dp"
         android:layout_marginTop="239dp"
-        android:layout_marginEnd="158dp"
-        android:layout_marginBottom="317dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="361dp"
         app:cardBackgroundColor="@color/cardview_light_background"
         app:cardCornerRadius="16dp"
         app:cardElevation="2dp"
         app:cardUseCompatPadding="false">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="38dp"
+                android:layout_marginEnd="49dp"
+                android:text="State Helpline Numbers" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="94dp"
+                android:layout_height="78dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="211dp"
+                android:layout_marginBottom="4dp"
+                app:srcCompat="@drawable/india_map" />
+
+        </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
